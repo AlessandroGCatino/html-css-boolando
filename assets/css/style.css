@@ -1,0 +1,83 @@
+/* css generici */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+html{
+    font-family: sans-serif;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.container{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* css header */
+header{
+    background-color: #ff6900;
+    color: white;
+    padding-block: 15px;
+}
+
+.categories,
+.user-recap{
+    display: flex;
+    align-items: center;
+    gap:5px;
+    font-weight: bold;
+}
+
+header img{
+    height: 30px;
+    display: block;
+}
+
+/* css main */
+
+.products{
+    flex-wrap: wrap;
+}
+
+.card{
+    width: calc(100%/3 - 1%);
+    margin-block: 50px;
+    position: relative;
+}
+
+.card h4{
+    text-transform: uppercase;
+}
+.card span{
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.price{
+    color: red;
+    font-weight: bold;
+}
+
+.old-price{
+    text-decoration:line-through;
+}
+
+.card img{
+    width: 100%;
+    display: block;
+}
+
+.like{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-color: white;
+    padding: 10px;
+}
