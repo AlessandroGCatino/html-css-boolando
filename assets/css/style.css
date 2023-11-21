@@ -140,11 +140,38 @@ footer h3{
 } */
 
 main figure{
-    background-image: url(../img/1b.webp);
     background-size: contain;
     background-position: center;
 }
 
-.base:hover{
+#card1{
+    background-image: url(../img/1b.webp);
+}
+
+#card2{
+    background-image: url(../img/2b.webp);
+}
+
+#card3{
+    background-image: url(../img/3b.webp);
+}
+
+#card4{
+    background-image: url(../img/4b.webp);
+}
+
+#card5{
+    background-image: url(../img/5b.webp);
+}
+
+#card6{
+    background-image: url(../img/6b.webp);
+}
+
+main img:hover{
     opacity: 0;
+}
+
+.like:hover{
+    color: red;
 }
